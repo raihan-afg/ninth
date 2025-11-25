@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 
 <html>
@@ -15,6 +16,13 @@
     width:100vw;
     height:100vh;
   }
+   .main{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  margin: 50px auto;
+  }
 .m{
   width:100%;
   height:fit-content;
@@ -27,8 +35,20 @@
   .m a{
     text-decoration:none;
     font-size:18px;
+    align-items: center;
+    margin: 0 auto;
   }
   @media(max-width:768px){
+  body{
+    background-color:#d384;
+    width:100vw;
+    height:100vh;
+ 
+  }
+  .main{
+  display: flex;
+  justify-content: space-between;
+  }
   .m{
   width:100px;
   height:50vh;
@@ -72,13 +92,14 @@
 
 </head>
 <body>
+ 
   <div class="m">
     <a href="">🤍</a>
     <a href="">🎧</a>
     <a href="">📚</a>
     <a href="">🌸</a>
   </div>
-
+ <div class="main">
   <div class="r">
    :
   </div> 
@@ -86,6 +107,6 @@
    .
   </div> 
   <div class="s">. </div>
-  
+  </div>
 </body>
 </html>
